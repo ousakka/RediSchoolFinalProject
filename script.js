@@ -50,7 +50,12 @@ function search()
     const activity= travelActivities.find(item => item.activity.toUpperCase()== targetActivity.toUpperCase());
     if (activity){
     const matchingCountries=activity.options.filter(Option => (Option.minPriceDKK) <= (targetPrice));
-    if((matchingCountries.length > 0) && activity){ alert(alert(JSON.stringify(matchingCountries, null, 2)));}
+    if((matchingCountries.length > 0) && activity){ alert(
+  matchingCountries
+    .map(option => `${option.country} - ${option.minPriceDKK} DKK`)
+    .join("\n")
+);
+}
       else (alert("the price is lower than the minimum price"))
 
      }
@@ -68,8 +73,15 @@ else alert(("Activity not found"));
 
 
 
+
+
 function book()
 {
   alert(" Your Trip is booked ");
 }
 
+
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  answer.style.display = answer.style.display === "block" ? "none" : "block";
+}

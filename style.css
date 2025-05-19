@@ -250,3 +250,14 @@ button {
 .orangeText{
   color: #BF3131;
 }
+
+.answer {
+  display: none;
+  margin-top: 5px;
+  color: #555;
+}
+
+.faq-item {
+  margin: 20px;
+  cursor: pointer;
+}
