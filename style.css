@@ -1,0 +1,252 @@
+.menuContainer li {
+  float: left;
+}
+
+.menuContainer li a {
+  display: block;
+
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.cardsContainer li {
+  float: left;
+}
+
+.cardsContainer li a {
+  display: block;
+
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.cardsContainer ul {
+  list-style-type: none;
+}
+
+.menuContainer ul {
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  text-size-adjust: 100px;
+  color: #070707;
+}
+
+.contentToTheLeft {
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.centerContent {
+  text-align: center;
+}
+
+.contentToTheright {
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between; /* pushes ul elements to opposite ends */
+  align-items: center;
+  
+
+  width: 1200px; /* fixed container width */
+  height: 80px; /* fixed container height */
+}
+
+.background {
+  width: 100%;
+  height: 1000px;
+  background-image: url(./images/background.jpeg);
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #e9ecf0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  background-size: 2000px 1000px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blackText {
+  color: #070707;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 80px; /* space between buttons */
+  justify-content: center; /* optional: centers the buttons */
+}
+
+.centerText {
+  text-align: center;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.grasText {
+  font-weight: bold;
+}
+.cardsContainer {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.contactCardsContainer{
+   display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 4px 0 rgba(119, 118, 118, 0.2);
+  transition: 1s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.italicText {
+  font-style: italic;
+}
+
+.cardsContainer img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.contactCardsContainer img{
+  width: 20px;
+  height: 20px;
+}
+
+.cardsContainer :hover {
+  transform: scale(1.05);
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f5c45e;
+}
+
+.countryContainer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.line {
+  width: 2px;
+  height: 300px;
+  background-color: #ccc;
+  margin-top: 80px;
+}
+
+.countryContainer p {
+  width: 400px;
+}
+
+.countryContainer img {
+  width: 100%;
+  height: 300px;
+}
+
+.yellowText {
+  color: #f5c45e;
+}
+
+.blueText {
+  color: #102e50;
+}
+
+.skyBlueText {
+  color: #3674b5;
+}
+
+.aboutContainer{
+  display :flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.aboutContainer img{
+  width: 300px;
+}
+
+
+.aboutContainer p{
+ 
+  width: 300px;
+}
+
+.grayText{
+  color: #928f8f;
+  font-size:small;
+}
+
+.card:hover
+{
+  transform: scale(1.05);
+  background-color: #f5c45e;
+}
+
+.contactBackground {
+  width: 100%;
+  height: 1000px;
+  background-image: url(./images/contact.jpeg);
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #e9ecf0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  background-size: 100% 100%;
+  flex-direction: column;
+   object-fit: cover;
+
+
+}
+
+.orangeText{
+  color: #BF3131;
+}
