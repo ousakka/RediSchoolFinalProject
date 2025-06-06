@@ -53,8 +53,10 @@
 
 .menuContainer {
   display: flex;
+  position: fixed;
   justify-content: space-between; /* pushes ul elements to opposite ends */
   align-items: center;
+  
   
 
   width: 1200px; /* fixed container width */
@@ -79,7 +81,10 @@
   background-size: 2000px 1000px;
   flex-direction: column;
   gap: 20px;
+  
 }
+
+
 
 .blackText {
   color: #070707;
